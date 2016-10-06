@@ -1,0 +1,28 @@
+{
+  "name": "zapimoveis",
+  "version": "1.0.0",
+  "description": "project to get and process data from sapimoveis + map viz",
+  "main": "",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "request": "^2.75.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "getPropertiesArea": "node get_properties_area.js",
+    "concatAreas": "node concat_areas.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Scaff",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "d3": "^4.2.6",
+    "json-loader": "^0.5.4",
+    "leaflet": "^1.0.1",
+    "leaflet.markercluster": "^1.0.0",
+    "webpack": "^1.13.2"
+  }
+}
